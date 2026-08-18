@@ -1,0 +1,2130 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>思輔科技 (SAVFE) 手術導航專利、FDA認證、期刊數據、官網與臨床風險優缺點綜合報告</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0e17;
+            --bg-card: #131b2e;
+            --bg-card-hover: #1a253e;
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.4);
+            --accent-cyan: #06b6d4;
+            --accent-gold: #f59e0b;
+            --accent-emerald: #10b981;
+            --accent-purple: #8b5cf6;
+            --accent-rose: #f43f5e;
+            --accent-amber: #d97706;
+            --text-main: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --glass-bg: rgba(19, 27, 46, 0.75);
+            --glass-border: rgba(255, 255, 255, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans TC', 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            background-image: 
+                radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 85% 85%, rgba(244, 63, 94, 0.12) 0%, transparent 40%);
+            background-attachment: fixed;
+            padding-bottom: 80px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1420px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header / Hero */
+        header {
+            padding: 44px 0 28px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 32px;
+        }
+
+        .header-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+        }
+
+        .brand-logo {
+            height: 48px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 6px 16px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .brand-logo img {
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .badge-wrapper {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            background: rgba(59, 130, 246, 0.15);
+            border: 1px solid var(--primary-glow);
+            color: #60a5fa;
+            font-size: 0.83rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-purple {
+            background: rgba(139, 92, 246, 0.18);
+            border-color: rgba(139, 92, 246, 0.45);
+            color: #c084fc;
+        }
+
+        .badge-rose {
+            background: rgba(244, 63, 94, 0.18);
+            border-color: rgba(244, 63, 94, 0.45);
+            color: #fb7185;
+        }
+
+        .badge-gold {
+            background: rgba(245, 158, 11, 0.15);
+            border-color: rgba(245, 158, 11, 0.4);
+            color: #fbbf24;
+        }
+
+        .badge-emerald {
+            background: rgba(16, 185, 129, 0.15);
+            border-color: rgba(16, 185, 129, 0.4);
+            color: #34d399;
+        }
+
+        .badge-cyan {
+            background: rgba(6, 182, 212, 0.15);
+            border-color: rgba(6, 182, 212, 0.4);
+            color: #22d3ee;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 1080px;
+            margin-bottom: 24px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--glass-border);
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .meta-label {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .meta-val {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--text-main);
+        }
+
+        /* Section Title */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 40px 0 24px 0;
+        }
+
+        .section-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary), var(--accent-cyan));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #fff;
+            box-shadow: 0 4px 12px var(--primary-glow);
+        }
+
+        .section-icon-amber {
+            background: linear-gradient(135deg, #f59e0b, #b45309);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        }
+
+        .section-icon-purple {
+            background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+        }
+
+        .section-icon-rose {
+            background: linear-gradient(135deg, #f43f5e, #be123c);
+            box-shadow: 0 4px 12px rgba(244, 63, 94, 0.4);
+        }
+
+        .section-icon-emerald {
+            background: linear-gradient(135deg, #10b981, #059669);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+        }
+
+        .section-icon-gold {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+        }
+
+        .section-title {
+            font-size: 1.55rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        /* Nav Tabs */
+        .nav-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 12px;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 10px 18px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-main);
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .tab-btn.active {
+            color: #fff;
+            background: linear-gradient(135deg, var(--primary), #2563eb);
+            box-shadow: 0 4px 14px var(--primary-glow);
+        }
+
+        .tab-btn.active-amber {
+            color: #fff;
+            background: linear-gradient(135deg, #f59e0b, #b45309);
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+        }
+
+        .tab-btn.active-purple {
+            color: #fff;
+            background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+            box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
+        }
+
+        .tab-btn.active-rose {
+            color: #fff;
+            background: linear-gradient(135deg, #f43f5e, #be123c);
+            box-shadow: 0 4px 14px rgba(244, 63, 94, 0.4);
+        }
+
+        .tab-btn.active-emerald {
+            color: #fff;
+            background: linear-gradient(135deg, #10b981, #059669);
+            box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+        }
+
+        .tab-btn.active-gold {
+            color: #fff;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Feature Cards & Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(59, 130, 246, 0.4);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-purple { border-color: rgba(139, 92, 246, 0.25); }
+        .card-purple:hover { border-color: rgba(139, 92, 246, 0.5); box-shadow: 0 12px 24px rgba(139, 92, 246, 0.2); }
+
+        .card-rose { border-color: rgba(244, 63, 94, 0.25); }
+        .card-rose:hover { border-color: rgba(244, 63, 94, 0.5); box-shadow: 0 12px 24px rgba(244, 63, 94, 0.2); }
+
+        .card-emerald { border-color: rgba(16, 185, 129, 0.25); }
+        .card-emerald:hover { border-color: rgba(16, 185, 129, 0.5); box-shadow: 0 12px 24px rgba(16, 185, 129, 0.2); }
+
+        .card-gold { border-color: rgba(245, 158, 11, 0.25); }
+        .card-gold:hover { border-color: rgba(245, 158, 11, 0.5); box-shadow: 0 12px 24px rgba(245, 158, 11, 0.2); }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #38bdf8;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-title-purple { color: #c084fc; }
+        .card-title-rose { color: #fb7185; }
+        .card-title-emerald { color: #34d399; }
+        .card-title-gold { color: #fbbf24; }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 16px;
+        }
+
+        .card-highlight {
+            background: rgba(15, 23, 42, 0.6);
+            border-left: 3px solid var(--accent-cyan);
+            padding: 12px 16px;
+            border-radius: 4px 8px 8px 4px;
+            font-size: 0.9rem;
+            color: #e2e8f0;
+            margin-top: 12px;
+        }
+
+        .card-highlight-purple { border-left-color: var(--accent-purple); background: rgba(139, 92, 246, 0.06); }
+        .card-highlight-rose { border-left-color: var(--accent-rose); background: rgba(244, 63, 94, 0.06); }
+        .card-highlight-emerald { border-left-color: var(--accent-emerald); background: rgba(16, 185, 129, 0.06); }
+        .card-highlight-gold { border-left-color: var(--accent-gold); background: rgba(245, 158, 11, 0.06); }
+
+        /* Spec Pill Badge */
+        .spec-pill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+
+        .spec-pill {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--glass-border);
+            border-radius: 14px;
+            padding: 18px 20px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            transition: all 0.25s ease;
+        }
+
+        .spec-pill:hover {
+            border-color: var(--accent-purple);
+            transform: translateY(-2px);
+        }
+
+        .spec-pill-icon {
+            font-size: 1.8rem;
+            width: 46px;
+            height: 46px;
+            background: rgba(139, 92, 246, 0.15);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .spec-pill-val {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #c084fc;
+        }
+
+        .spec-pill-lbl {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        /* Step List */
+        .step-pipeline {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .step-item {
+            display: grid;
+            grid-template-columns: 60px 1fr;
+            gap: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 20px;
+            align-items: center;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            border: 1px solid var(--primary-glow);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #60a5fa;
+        }
+
+        .step-body h4 {
+            font-size: 1.1rem;
+            color: #f8fafc;
+            margin-bottom: 6px;
+        }
+
+        .step-body p {
+            color: var(--text-muted);
+            font-size: 0.92rem;
+        }
+
+        .step-code {
+            font-family: monospace;
+            background: rgba(0, 0, 0, 0.4);
+            color: #38bdf8;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.88rem;
+        }
+
+        /* Photo Gallery Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 24px;
+        }
+
+        .gallery-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.25s ease;
+        }
+
+        .gallery-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 8px 30px rgba(59, 130, 246, 0.25);
+        }
+
+        .gallery-card-emerald:hover {
+            border-color: var(--accent-emerald);
+            box-shadow: 0 8px 30px rgba(16, 185, 129, 0.25);
+        }
+
+        .gallery-card-gold:hover {
+            border-color: var(--accent-gold);
+            box-shadow: 0 8px 30px rgba(245, 158, 11, 0.25);
+        }
+
+        .img-container {
+            width: 100%;
+            height: 280px;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            position: relative;
+        }
+
+        .img-container-photo {
+            background: #0f172a;
+            padding: 0;
+        }
+
+        .img-container img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .img-container-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .img-container:hover img {
+            transform: scale(1.04);
+        }
+
+        .zoom-hint {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(15, 23, 42, 0.85);
+            color: #fff;
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+            pointer-events: none;
+        }
+
+        .gallery-content {
+            padding: 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fig-tag {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #38bdf8;
+            margin-bottom: 6px;
+            display: inline-block;
+        }
+
+        .fig-tag-emerald { color: #34d399; }
+        .fig-tag-gold { color: #fbbf24; }
+
+        .fig-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .fig-desc {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            flex: 1;
+        }
+
+        .component-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 14px;
+        }
+
+        .chip {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #cbd5e1;
+            font-size: 0.78rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+        }
+
+        .chip-emerald {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: rgba(16, 185, 129, 0.3);
+            color: #6ee7b7;
+        }
+
+        .chip-gold {
+            background: rgba(245, 158, 11, 0.1);
+            border-color: rgba(245, 158, 11, 0.3);
+            color: #fde047;
+        }
+
+        /* Modal Image Preview */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(5, 8, 15, 0.92);
+            backdrop-filter: blur(10px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-body {
+            max-width: 90vw;
+            max-height: 85vh;
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-body img {
+            max-width: 100%;
+            max-height: 75vh;
+            display: block;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+
+        .modal-caption {
+            text-align: center;
+            margin-top: 12px;
+            color: #0f172a;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            font-size: 1.4rem;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Table */
+        .symbol-table-wrapper {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .search-bar {
+            padding: 16px 24px;
+            background: rgba(15, 23, 42, 0.6);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 10px 16px;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.95rem;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: var(--primary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th {
+            background: rgba(15, 23, 42, 0.8);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            padding: 14px 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        td {
+            padding: 14px 24px;
+            border-bottom: 1px solid var(--border-color);
+            font-size: 0.92rem;
+        }
+
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        .sym-code {
+            font-family: monospace;
+            font-weight: 700;
+            color: #38bdf8;
+        }
+
+        /* Comparison Box */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .comp-card {
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .comp-legacy {
+            background: rgba(239, 68, 68, 0.08);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        .comp-legacy h3 {
+            color: #f87171;
+            margin-bottom: 16px;
+        }
+
+        .comp-savfe {
+            background: rgba(16, 185, 129, 0.08);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        .comp-savfe h3 {
+            color: #34d399;
+            margin-bottom: 16px;
+        }
+
+        .comp-list li {
+            margin-bottom: 10px;
+            list-style-position: inside;
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+
+        /* Team Profile Layout */
+        .team-profile-grid {
+            display: grid;
+            grid-template-columns: 240px 1fr;
+            gap: 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            align-items: start;
+        }
+
+        .team-avatar {
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid var(--glass-border);
+        }
+
+        .team-avatar img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .profile-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #f8fafc;
+            margin-bottom: 4px;
+        }
+
+        .profile-sub {
+            font-size: 0.9rem;
+            color: var(--accent-gold);
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        .profile-table {
+            width: 100%;
+            font-size: 0.9rem;
+            border-collapse: collapse;
+        }
+
+        .profile-table td {
+            padding: 8px 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .profile-table tr td:first-child {
+            color: var(--text-muted);
+            width: 80px;
+            font-weight: 600;
+        }
+
+        /* Risk & Analysis Specific Styles */
+        .analysis-box {
+            background: var(--bg-card);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .analysis-header {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .list-pro li {
+            list-style: none;
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+
+        .list-pro li::before {
+            content: "🟢";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 0.9rem;
+        }
+
+        .list-con li {
+            list-style: none;
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+
+        .list-con li::before {
+            content: "🔴";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 0.9rem;
+        }
+
+        .list-risk li {
+            list-style: none;
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 16px;
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+
+        .list-risk li::before {
+            content: "⚠️";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 0.9rem;
+        }
+
+        .risk-mitigation {
+            background: rgba(245, 158, 11, 0.08);
+            border: 1px solid rgba(245, 158, 11, 0.25);
+            padding: 8px 12px;
+            border-radius: 6px;
+            margin-top: 6px;
+            font-size: 0.88rem;
+            color: #fde047;
+        }
+
+        @media (max-width: 768px) {
+            .comparison-grid, .team-profile-grid {
+                grid-template-columns: 1fr;
+            }
+            .meta-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="header-top">
+                <div class="brand-logo">
+                    <img src="./savfe_logo.png" alt="SAVFE Tech Logo">
+                </div>
+                <div class="badge-wrapper">
+                    <span class="badge badge-amber">⚖️ 產品優缺點與臨床風險評估</span>
+                    <span class="badge badge-purple">🇺🇸 FDA 510(k) 認證 (K251992)</span>
+                    <span class="badge badge-rose">📄 Cureus 國際論文</span>
+                    <span class="badge badge-emerald">🌐 ArmSure / Assist Arm</span>
+                    <span class="badge badge-gold">🏆 第21屆國家新創獎</span>
+                    <span class="badge badge-cyan">發明專利：I916951</span>
+                </div>
+            </div>
+
+            <h1>SAVFE 思輔科技 競品與產品技術全景分析</h1>
+            <p class="subtitle">整合思輔科技 (SAVFE Tech) 美國 FDA 510(k) 醫療器材通關文件 (K251992)、Cureus 國際頂尖醫學期刊實證數據、原廠產品規格、TW I916951 發明專利與臨床風險優缺點綜合分析報告</p>
+            
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <span class="meta-label">FDA 510(k) 認證案號</span>
+                    <span class="meta-val" style="color: #c084fc;">K251992 (2026/02/11 獲准)</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">FDA 產品名稱 & 類別</span>
+                    <span class="meta-val" style="color: #38bdf8;">ArmSure Positioning System (Class II)</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">臨床實證精確度 (Cureus)</span>
+                    <span class="meta-val" style="color: #34d399;">1.08 &plusmn; 0.40 mm (校準 0.07mm)</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">安裝與手術耗時 (Cureus)</span>
+                    <span class="meta-val" style="color: #fbbf24;">安裝 2.3 min | 手術 4.2 min</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">輻射劑量暴露 (Cureus)</span>
+                    <span class="meta-val" style="color: #fb7185;">6.75 張 X 光 | 僅 0.27 mGy</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <div class="nav-tabs">
+            <button class="tab-btn active-amber" onclick="switchTab('tab-risk')">⚖️ 產品優缺點與臨床風險評估</button>
+            <button class="tab-btn" onclick="switchTab('tab-arm')">🦾 手臂結構深度分析</button>
+            <button class="tab-btn" onclick="switchTab('tab-fda')">🇺🇸 FDA 510(k) 認證 (K251992)</button>
+            <button class="tab-btn" onclick="switchTab('tab-paper')">📄 Cureus 國際期刊臨床實驗數據</button>
+            <button class="tab-btn" onclick="switchTab('tab-official')">🌐 官網產品規格 (ArmSure / Assist Arm)</button>
+            <button class="tab-btn" onclick="switchTab('tab-summary')">💡 核心發明與創新對比</button>
+            <button class="tab-btn" onclick="switchTab('tab-pipeline')">📐 空間座標轉換原理</button>
+            <button class="tab-btn" onclick="switchTab('tab-hardware')">⚙️ 機械臂與編碼器結構</button>
+            <button class="tab-btn" onclick="switchTab('tab-drawings')">🖼️ 專利圖面與圖號庫 (圖1~圖13)</button>
+        </div>
+
+        <!-- ===== TAB ARM: Arm Structure Deep Analysis ===== -->
+        <div id="tab-arm" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #06b6d4, #0e7490); box-shadow: 0 4px 12px rgba(6,182,212,0.4);">🦾</div>
+                <h2 class="section-title">ArmSure 機械手臂結構深度分析 — 這隻手臂是「自動的」嗎？</h2>
+            </div>
+
+            <!-- Verdict Banner -->
+            <div style="background: linear-gradient(135deg, rgba(244,63,94,0.15), rgba(139,92,246,0.15)); border: 1px solid rgba(244,63,94,0.4); border-radius: 16px; padding: 24px; margin-bottom: 32px; display: flex; align-items: center; gap: 20px;">
+                <div style="font-size: 3rem; flex-shrink:0;">❌</div>
+                <div>
+                    <div style="font-size: 1.3rem; font-weight: 800; color: #fb7185; margin-bottom: 8px;">明確結論：ArmSure 不是自動機器人</div>
+                    <div style="color: #cbd5e1; font-size: 0.97rem; line-height: 1.7;">FDA 510(k) K251992 官方文件定義為 <strong style="color:#fbbf24;">"Manual, non-actuated Assist Arm"（手動、非主動驅動輔助臂）</strong>。手臂本身無驅動馬達，不會自動移動。但其七個關節內建高精度角度編碼器 + 電磁煞車鎖定 + 即時座標運算，構成一套完整的「<strong style="color:#34d399;">被動式智慧扶臂</strong>」系統。</div>
+                </div>
+            </div>
+
+            <!-- Three Layer Cards -->
+            <div style="margin-bottom: 12px; color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">▸ 三層架構理解 (Three-Layer Framework)</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 36px;">
+                <!-- Layer 1 -->
+                <div style="background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.3); border-radius: 16px; padding: 24px;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+                        <div style="width:36px; height:36px; background: rgba(239,68,68,0.2); border-radius: 10px; display:flex; align-items:center; justify-content:center; font-weight:800; color:#f87171;">1</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #f87171;">物理層：被動持臂</div>
+                    </div>
+                    <p style="color: #94a3b8; font-size: 0.93rem; margin-bottom: 14px;">手臂物理上<strong style="color:#e2e8f0;">不含驅動馬達</strong>，靠醫師徒手推動定位。配備被動式重力補償機構，使手臂有「<strong style="color:#fbbf24;">零重力浮動感</strong>」。</p>
+                    <div style="background: rgba(0,0,0,0.3); border-radius: 8px; padding: 12px; font-size: 0.88rem; color: #cbd5e1;">
+                        ✅ 醫師手動推動 → 各關節自由浮動<br>
+                        ✅ 重力補償 → 器械不因重量下沉<br>
+                        ✅ 按鈕確認 → 電磁煞車全關節鎖定 (&lt;20ms)<br>
+                        ❌ 不自動移動到位
+                    </div>
+                </div>
+                <!-- Layer 2 -->
+                <div style="background: rgba(245,158,11,0.08); border: 1px solid rgba(245,158,11,0.35); border-radius: 16px; padding: 24px;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+                        <div style="width:36px; height:36px; background: rgba(245,158,11,0.2); border-radius: 10px; display:flex; align-items:center; justify-content:center; font-weight:800; color:#fbbf24;">2</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #fbbf24;">感測層：主動追蹤</div>
+                    </div>
+                    <p style="color: #94a3b8; font-size: 0.93rem; margin-bottom: 14px;">雖然手臂不自動移動，但<strong style="color:#e2e8f0;">感測系統高度主動且智慧</strong>，這是核心技術壁壘所在。</p>
+                    <div style="background: rgba(0,0,0,0.3); border-radius: 8px; padding: 12px; font-size: 0.88rem; color: #cbd5e1;">
+                        🔵 7 個關節高精度角度編碼器（磁性/電容式）<br>
+                        🔵 即時讀取角度 → 順向運動學計算 3D 座標<br>
+                        🔵 單張 X 光 → 建立座標系轉換矩陣<br>
+                        🔵 導航軌跡即時疊加於螢幕影像
+                    </div>
+                </div>
+                <!-- Layer 3 -->
+                <div style="background: rgba(16,185,129,0.08); border: 1px solid rgba(16,185,129,0.35); border-radius: 16px; padding: 24px;">
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+                        <div style="width:36px; height:36px; background: rgba(16,185,129,0.2); border-radius: 10px; display:flex; align-items:center; justify-content:center; font-weight:800; color:#34d399;">3</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #34d399;">控制層：協作鎖定</div>
+                    </div>
+                    <p style="color: #94a3b8; font-size: 0.93rem; margin-bottom: 14px;">醫師主導手術，機器輔助定位與精確鎖定。保留醫師的「<strong style="color:#e2e8f0;">觸覺回饋與臨床判斷</strong>」。</p>
+                    <div style="background: rgba(0,0,0,0.3); border-radius: 8px; padding: 12px; font-size: 0.88rem; color: #cbd5e1;">
+                        👨‍⚕️ 醫師主控手術方向與深度<br>
+                        🔒 電磁煞車精準鎖定位置<br>
+                        📐 IEC 62366 人因驗證 100% 通過<br>
+                        🎯 學習曲線趨近於零
+                    </div>
+                </div>
+            </div>
+
+            <!-- Workflow Diagram -->
+            <div style="margin-bottom: 12px; color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">▸ 手術操作流程圖 (Surgical Workflow)</div>
+            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 28px; margin-bottom: 36px;">
+                <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;">
+                    <div style="text-align:center; flex:1; min-width:100px;">
+                        <div style="width:54px; height:54px; background: linear-gradient(135deg,#3b82f6,#1d4ed8); border-radius:14px; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">👐</div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #60a5fa;">醫師推動手臂</div>
+                        <div style="font-size: 0.78rem; color: var(--text-muted); margin-top:4px;">各關節自由浮動</div>
+                    </div>
+                    <div style="font-size: 1.5rem; color: var(--text-muted);">→</div>
+                    <div style="text-align:center; flex:1; min-width:100px;">
+                        <div style="width:54px; height:54px; background: linear-gradient(135deg,#f59e0b,#b45309); border-radius:14px; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">⚖️</div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #fbbf24;">重力補償作用</div>
+                        <div style="font-size: 0.78rem; color: var(--text-muted); margin-top:4px;">零重力浮動手感</div>
+                    </div>
+                    <div style="font-size: 1.5rem; color: var(--text-muted);">→</div>
+                    <div style="text-align:center; flex:1; min-width:100px;">
+                        <div style="width:54px; height:54px; background: linear-gradient(135deg,#8b5cf6,#6d28d9); border-radius:14px; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">🎯</div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #c084fc;">對準目標位置</div>
+                        <div style="font-size: 0.78rem; color: var(--text-muted); margin-top:4px;">導航影像即時確認</div>
+                    </div>
+                    <div style="font-size: 1.5rem; color: var(--text-muted);">→</div>
+                    <div style="text-align:center; flex:1; min-width:100px;">
+                        <div style="width:54px; height:54px; background: linear-gradient(135deg,#f43f5e,#be123c); border-radius:14px; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">🔒</div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #fb7185;">電磁煞車鎖定</div>
+                        <div style="font-size: 0.78rem; color: var(--text-muted); margin-top:4px;">7 關節瞬間鎖定 &lt;20ms</div>
+                    </div>
+                    <div style="font-size: 1.5rem; color: var(--text-muted);">→</div>
+                    <div style="text-align:center; flex:1; min-width:100px;">
+                        <div style="width:54px; height:54px; background: linear-gradient(135deg,#10b981,#059669); border-radius:14px; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">💉</div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #34d399;">醫師執行手術</div>
+                        <div style="font-size: 0.78rem; color: var(--text-muted); margin-top:4px;">插針/鑽孔導引</div>
+                    </div>
+                    <div style="font-size: 1.5rem; color: var(--text-muted);">→</div>
+                    <div style="text-align:center; flex:1; min-width:100px;">
+                        <div style="width:54px; height:54px; background: linear-gradient(135deg,#06b6d4,#0e7490); border-radius:14px; margin:0 auto 10px; display:flex; align-items:center; justify-content:center; font-size:1.5rem;">📊</div>
+                        <div style="font-size: 0.85rem; font-weight: 700; color: #22d3ee;">系統即時追蹤</div>
+                        <div style="font-size: 0.78rem; color: var(--text-muted); margin-top:4px;">編碼器持續回饋</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Joint Structure -->
+            <div style="margin-bottom: 12px; color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">▸ 7-DOF 關節結構與內部模組 (Joint Architecture)</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 36px;">
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 24px;">
+                    <div style="font-size: 1.1rem; font-weight: 700; color: #38bdf8; margin-bottom: 16px;">🔩 7-DOF 冗餘臂構型</div>
+                    <div style="font-family: monospace; font-size: 0.85rem; color: #94a3b8; background: rgba(0,0,0,0.4); padding: 16px; border-radius: 8px; line-height: 2;">
+                        <span style="color:#60a5fa;">基端固定座 (101)</span><br>
+                        &nbsp;&nbsp;│<br>
+                        &nbsp;&nbsp;├─ <span style="color:#c084fc;">J1 (110a)</span> Roll/Yaw<br>
+                        &nbsp;&nbsp;├─ <span style="color:#c084fc;">J2 (110b)</span> Pitch<br>
+                        &nbsp;&nbsp;├─ <span style="color:#c084fc;">J3 (110c)</span> Roll<br>
+                        &nbsp;&nbsp;├─ <span style="color:#c084fc;">J4 (110d)</span> Pitch/Elbow<br>
+                        &nbsp;&nbsp;├─ <span style="color:#c084fc;">J5 (110e)</span> Roll/Forearm<br>
+                        &nbsp;&nbsp;└─ <span style="color:#c084fc;">J6/J7 末端</span> Wrist<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─ <span style="color:#34d399;">終端 (12) + 器械 (40)</span>
+                    </div>
+                    <div style="margin-top: 14px; font-size: 0.88rem; color: #94a3b8;">第 7 自由度提供「冗餘度」，使手臂在固定器械位置的同時，仍可靈活調整姿態避開手術視野遮擋。</div>
+                </div>
+                <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 24px;">
+                    <div style="font-size: 1.1rem; font-weight: 700; color: #fbbf24; margin-bottom: 16px;">⚙️ 關節內部共軸模組截面</div>
+                    <div style="font-family: monospace; font-size: 0.83rem; color: #94a3b8; background: rgba(0,0,0,0.4); padding: 16px; border-radius: 8px; line-height: 1.9;">
+                        ┌────────────────────────┐<br>
+                        │ <span style="color:#fb7185;">電磁煞車 (1102a)</span>       │<br>
+                        │ ┌────────────────────┐ │<br>
+                        │ │ <span style="color:#fbbf24;">減速器 (1104a)</span>      │ │<br>
+                        │ │ ┌──────────────┐  │ │<br>
+                        │ │ │ <span style="color:#60a5fa;">旋轉軸(1101a)</span>│  │ │<br>
+                        │ │ └──────────────┘  │ │<br>
+                        │ └────────────────────┘ │<br>
+                        │ <span style="color:#c084fc;">磁環/磁鐵 (1105a)</span>      │<br>
+                        │ <span style="color:#34d399;">角度編碼器 (1103a)</span>     │<br>
+                        └────────────────────────┘
+                    </div>
+                    <div style="margin-top: 14px; font-size: 0.88rem; color: #94a3b8;">磁環置於遠離制動器一側，消除電磁干擾。中空電容編碼器設計縮短軸向長度。</div>
+                </div>
+            </div>
+
+            <!-- Encoder Types -->
+            <div style="margin-bottom: 12px; color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">▸ 兩種編碼器設計對比 (Encoder Types)</div>
+            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; overflow: hidden; margin-bottom: 36px;">
+                <table style="width:100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th style="background: rgba(15,23,42,0.8); color: #94a3b8; font-size:0.83rem; text-transform:uppercase; padding: 14px 20px; text-align:left; border-bottom: 1px solid rgba(255,255,255,0.08);">特性</th>
+                            <th style="background: rgba(15,23,42,0.8); color: #94a3b8; font-size:0.83rem; text-transform:uppercase; padding: 14px 20px; text-align:left; border-bottom: 1px solid rgba(255,255,255,0.08);">🧲 磁性編碼器 (圖4系列)</th>
+                            <th style="background: rgba(15,23,42,0.8); color: #94a3b8; font-size:0.83rem; text-transform:uppercase; padding: 14px 20px; text-align:left; border-bottom: 1px solid rgba(255,255,255,0.08);">⚡ 電容編碼器 (圖5系列)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:12px 20px; color:#64748b; font-size:0.88rem;">感測原理</td>
+                            <td style="padding:12px 20px; color:#e2e8f0; font-size:0.9rem;">磁環旋轉改變磁場量測角度</td>
+                            <td style="padding:12px 20px; color:#e2e8f0; font-size:0.9rem;">電容板間距/角度變化量測</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:12px 20px; color:#64748b; font-size:0.88rem;">防干擾設計</td>
+                            <td style="padding:12px 20px; color:#e2e8f0; font-size:0.9rem;">磁環置於遠離制動器一側</td>
+                            <td style="padding:12px 20px; color:#e2e8f0; font-size:0.9rem;">中空結構完全隔離電磁</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:12px 20px; color:#64748b; font-size:0.88rem;">軸向緊湊性</td>
+                            <td style="padding:12px 20px; color:#fbbf24; font-size:0.9rem;">標準</td>
+                            <td style="padding:12px 20px; color:#34d399; font-size:0.9rem;">更短（消除聯軸器）</td>
+                        </tr>
+                        <tr>
+                            <td style="padding:12px 20px; color:#64748b; font-size:0.88rem;">解析度</td>
+                            <td style="padding:12px 20px; color:#fbbf24; font-size:0.9rem;">高</td>
+                            <td style="padding:12px 20px; color:#34d399; font-size:0.9rem;">極高</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Manufacturer Analysis -->
+            <div style="margin-bottom: 12px; color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">▸ 製造商分析 (Manufacturer Analysis)</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 36px;">
+                <div style="background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.3); border-radius: 16px; padding: 24px;">
+                    <div style="font-size: 1.1rem; font-weight: 700; color: #60a5fa; margin-bottom: 14px;">🏭 SAVFE 思輔科技股份有限公司</div>
+                    <table style="width:100%; font-size:0.88rem; border-collapse:collapse;">
+                        <tr><td style="color:#64748b; padding:6px 0; width:90px;">FDA 認定</td><td style="color:#e2e8f0;">官方製造商 (K251992)</td></tr>
+                        <tr><td style="color:#64748b; padding:6px 0;">成立時間</td><td style="color:#e2e8f0;">2023 年 8 月，台北市大安區</td></tr>
+                        <tr><td style="color:#64748b; padding:6px 0;">硬體策略</td><td style="color:#34d399; font-weight:600;">自主設計規格 + 委台灣精密機械廠代工</td></tr>
+                        <tr><td style="color:#64748b; padding:6px 0;">專利</td><td style="color:#e2e8f0;">TW I916951（SAVFE 持有）</td></tr>
+                        <tr><td style="color:#64748b; padding:6px 0;">R&amp;D 技能</td><td style="color:#e2e8f0;">機器人、影像處理、自動控制、硬體設計</td></tr>
+                    </table>
+                </div>
+                <div style="background: rgba(139,92,246,0.08); border: 1px solid rgba(139,92,246,0.3); border-radius: 16px; padding: 24px;">
+                    <div style="font-size: 1.1rem; font-weight: 700; color: #c084fc; margin-bottom: 14px;">🔧 可能的元件供應商（推測）</div>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); color:#cbd5e1; font-size:0.88rem;"><span style="color:#fbbf24;">東元電機 (TECO)</span> — 關節模組：馬達 + 減速機 + 編碼器 + 電磁煞車整合</li>
+                        <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); color:#cbd5e1; font-size:0.88rem;"><span style="color:#fbbf24;">工研院機械所</span> — 快拆式關節機器人模組化技術（可客製 7-DOF）</li>
+                        <li style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); color:#cbd5e1; font-size:0.88rem;"><span style="color:#fbbf24;">Maxon Motor 台灣</span> — 醫療級 HPJ 模組（煞車器 + 力矩感測器 + 高精度編碼器）</li>
+                        <li style="padding: 8px 0; color:#cbd5e1; font-size:0.88rem;"><span style="color:#fbbf24;">Heidenhain 台灣</span> — 高精度絕對式關節編碼器（醫療機器人等級）</li>
+                    </ul>
+                    <div style="margin-top:12px; font-size:0.8rem; color:#64748b;">⚠️ 以上為基於技術特徵之合理推測，非官方確認供應商。</div>
+                </div>
+            </div>
+
+            <!-- Competitor Comparison Table -->
+            <div style="margin-bottom: 12px; color: var(--text-muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 700;">▸ 競品對比：ArmSure vs ROSA Spine vs EPROB (Actuation 模式比較)</div>
+            <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; overflow: hidden; margin-bottom: 24px;">
+                <table style="width:100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th style="background: rgba(15,23,42,0.9); color:#94a3b8; font-size:0.82rem; text-transform:uppercase; padding:16px 20px; text-align:left; border-bottom:1px solid rgba(255,255,255,0.08);">比較維度</th>
+                            <th style="background: rgba(16,185,129,0.15); color:#34d399; font-size:0.9rem; font-weight:700; padding:16px 20px; text-align:center; border-bottom:1px solid rgba(255,255,255,0.08);">✅ SAVFE ArmSure<br><span style="font-size:0.75rem; font-weight:400; color:#6ee7b7;">被動式智慧扶臂</span></th>
+                            <th style="background: rgba(239,68,68,0.12); color:#f87171; font-size:0.9rem; font-weight:700; padding:16px 20px; text-align:center; border-bottom:1px solid rgba(255,255,255,0.08);">🤖 ROSA Spine<br><span style="font-size:0.75rem; font-weight:400; color:#fca5a5;">Zimmer Biomet</span></th>
+                            <th style="background: rgba(139,92,246,0.12); color:#c084fc; font-size:0.9rem; font-weight:700; padding:16px 20px; text-align:center; border-bottom:1px solid rgba(255,255,255,0.08);">🧠 EPROB<br><span style="font-size:0.75rem; font-weight:400; color:#d8b4fe;">EPED Inc. (台灣)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">手臂類型</td>
+                            <td style="padding:13px 20px; text-align:center; color:#34d399; font-weight:600;">被動式 (Non-Actuated)</td>
+                            <td style="padding:13px 20px; text-align:center; color:#f87171; font-weight:600;">全主動式 (Fully Actuated)</td>
+                            <td style="padding:13px 20px; text-align:center; color:#c084fc; font-weight:600;">全主動式 (Fully Actuated)</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">驅動馬達</td>
+                            <td style="padding:13px 20px; text-align:center; color:#34d399;">❌ 無（純編碼器 + 煞車）</td>
+                            <td style="padding:13px 20px; text-align:center; color:#f87171;">✅ 6 軸主動馬達</td>
+                            <td style="padding:13px 20px; text-align:center; color:#c084fc;">✅ 主動馬達驅動</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">關節自由度</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;"><strong>7-DOF</strong> 冗餘</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;"><strong>6-DOF</strong> 擬人臂</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;">多軸（腦外科專用）</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">定位精確度</td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(16,185,129,0.15); color:#34d399; padding:3px 10px; border-radius:20px; font-size:0.88rem; font-weight:700;">1.08 ± 0.40 mm</span></td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(239,68,68,0.12); color:#f87171; padding:3px 10px; border-radius:20px; font-size:0.88rem;">< 0.75 mm RMS</span></td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(139,92,246,0.12); color:#c084fc; padding:3px 10px; border-radius:20px; font-size:0.88rem;">高精度（腦外科）</span></td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">系統設置時間</td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(16,185,129,0.2); color:#34d399; padding:3px 10px; border-radius:20px; font-size:0.9rem; font-weight:800;">⚡ 2.3 min</span></td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(239,68,68,0.12); color:#f87171; padding:3px 10px; border-radius:20px; font-size:0.88rem;">~20 min（學習曲線陡）</span></td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(139,92,246,0.12); color:#c084fc; padding:3px 10px; border-radius:20px; font-size:0.88rem;">縮短手術約 30%</span></td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">輻射劑量</td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(16,185,129,0.2); color:#34d399; padding:3px 10px; border-radius:20px; font-size:0.9rem; font-weight:800;">☢ 0.27 mGy</span></td>
+                            <td style="padding:13px 20px; text-align:center; color:#f87171;">混合結果，依成像方式而異</td>
+                            <td style="padding:13px 20px; text-align:center; color:#c084fc;">使用 CT/MRI，非 X 光定位</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">需外部追蹤設備</td>
+                            <td style="padding:13px 20px; text-align:center; color:#34d399; font-weight:700;">❌ 不需要</td>
+                            <td style="padding:13px 20px; text-align:center; color:#f87171;">✅ 光學追蹤相機</td>
+                            <td style="padding:13px 20px; text-align:center; color:#c084fc;">✅ 術前 CT/MRI 計畫</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">主要應用手術</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;">脊椎 / 長骨微創</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;">脊椎多節段</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;">腦外科（SEEG / DBS / ICH）</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">醫師操控模式</td>
+                            <td style="padding:13px 20px; text-align:center; color:#34d399;">醫師直接徒手定位（主導權在醫師）</td>
+                            <td style="padding:13px 20px; text-align:center; color:#f87171;">機器人自動到位（動態追蹤）</td>
+                            <td style="padding:13px 20px; text-align:center; color:#c084fc;">機器人自動定位（頭部固定架）</td>
+                        </tr>
+                        <tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">台灣 TFDA 認證</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;">🇺🇸 FDA K251992 (2026)</td>
+                            <td style="padding:13px 20px; text-align:center; color:#e2e8f0;">FDA 認證（美國）</td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="background:rgba(139,92,246,0.2); color:#c084fc; padding:3px 10px; border-radius:20px; font-weight:700;">✅ TFDA 2021 (台灣首張)</span></td>
+                        </tr>
+                        <tr>
+                            <td style="padding:13px 20px; color:#64748b; font-size:0.88rem; font-weight:600;">設備成本概估</td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="color:#34d399; font-weight:700;">💚 低</span><span style="color:#64748b; font-size:0.8rem;">（無主動馬達）</span></td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="color:#f87171; font-weight:700;">🔴 極高</span><span style="color:#64748b; font-size:0.8rem;">（全自動機器人）</span></td>
+                            <td style="padding:13px 20px; text-align:center;"><span style="color:#f87171; font-weight:700;">🔴 高</span><span style="color:#64748b; font-size:0.8rem;">（高精度腦外科）</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+                <div style="background: rgba(239,68,68,0.06); border:1px solid rgba(239,68,68,0.2); border-radius:12px; padding:18px;">
+                    <div style="font-weight:700; color:#f87171; margin-bottom:10px;">🤖 ROSA Spine ─ 官網</div>
+                    <div style="font-size:0.88rem; color:#94a3b8; margin-bottom:8px;">Zimmer Biomet，美國脊椎全自動機器人，具動態追蹤與觸覺回饋技術。</div>
+                    <a href="https://www.zimmerbiomet.com/en/products-and-solutions/specialties/spine/rosa-spine.html" target="_blank" style="color:#60a5fa; font-size:0.85rem; text-decoration:none;">🔗 zimmerbiomet.com › ROSA Spine →</a>
+                </div>
+                <div style="background: rgba(139,92,246,0.06); border:1px solid rgba(139,92,246,0.2); border-radius:12px; padding:18px;">
+                    <div style="font-weight:700; color:#c084fc; margin-bottom:10px;">🧠 EPROB ─ 官網</div>
+                    <div style="font-size:0.88rem; color:#94a3b8; margin-bottom:8px;">台灣 EPED Inc.，2021 年獲 TFDA 認證，台灣首款國產腦外科手術機器人。</div>
+                    <a href="https://www.epedmed.com/eprob" target="_blank" style="color:#60a5fa; font-size:0.85rem; text-decoration:none;">🔗 epedmed.com › EPROB →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Risk: Pros, Cons & Clinical Risks Analysis (New Tab) -->
+        <div id="tab-risk" class="tab-content active">
+            <div class="section-header">
+                <div class="section-icon section-icon-amber">⚖️</div>
+                <h2 class="section-title">SAVFE ArmSure 產品綜合優缺點與臨床風險評估 (SWOT & Risk Analysis)</h2>
+            </div>
+
+            <!-- Pros Section -->
+            <div class="analysis-box" style="border-color: rgba(16, 185, 129, 0.3);">
+                <div class="analysis-header" style="color: #34d399;">
+                    <span>🟢 產品核心競爭優勢 (Strengths & Key Pros)</span>
+                </div>
+                <ul class="list-pro">
+                    <li>
+                        <strong>輻射劑量極低（保護醫護與患者）：</strong>
+                        全流程僅需平均 <strong>6.75 張 X 光影像</strong>（累積輻射劑量僅 <strong>0.27 mGy</strong>），遠低於傳統螢光透視及 O-arm/CT 導航（文獻顯示傳統導航每根螺釘高達 35.5 mGy）。
+                    </li>
+                    <li>
+                        <strong>架設極速與流暢工作流 (Ultra-fast Setup)：</strong>
+                        設備安裝與單張 X 光校準時間平均僅 <strong>2.3 分鐘</strong>（競品 O-arm 需 28.3 分鐘），單針螺釘植入僅需 <strong>4.2 分鐘</strong>，大幅縮短麻醉與手術時間。
+                    </li>
+                    <li>
+                        <strong>無光學/電磁視線遮擋痛點 (No Line-of-Sight Occlusion)：</strong>
+                        採用臂身關節角度編碼器進行機械式空間追蹤 (Mechanical Tracking)，完全不受手術室人員走動遮擋光學鏡頭或血跡污損光學球影響，亦無電磁干擾問題。
+                    </li>
+                    <li>
+                        <strong>亞毫米級高精確度 (Sub-millimeter Accuracy)：</strong>
+                        經三次元測量儀 (CMM) 校準，3D 空間平移誤差達 <strong>1.08 &plusmn; 0.40 mm</strong>；影像校準誤差僅 0.07 mm，通過 FDA 99.7% C.I. &lt; 1.5 mm 之嚴苛標準。
+                    </li>
+                    <li>
+                        <strong>「主導權還給醫師」低學習門檻：</strong>
+                        採手動協作扶臂 (Manual Assist Arm)，醫師保持原有直覺手術習慣，不強制由機械手臂接管鑽孔；IEC 62366 人因測試達 100% 成功率與 0 人為操作錯誤。
+                    </li>
+                    <li>
+                        <strong>設備成本與空間效益高：</strong>
+                        相容各大廠 C-arm 等傳統影像設備，免去購買昂貴 O-arm 或專用鏡頭之資本支出，佔地小且移動便利。
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Cons Section -->
+            <div class="analysis-box" style="border-color: rgba(239, 68, 68, 0.3);">
+                <div class="analysis-header" style="color: #f87171;">
+                    <span>🔴 產品潛在缺點與技術侷限 (Weaknesses & Cons)</span>
+                </div>
+                <ul class="list-con">
+                    <li>
+                        <strong>被動式扶臂無主動動力切削機能 (Passive Non-Actuated Arm)：</strong>
+                        FDA 通關文件標示為 Manual, Non-actuated Assist Arm。手臂僅提供空間對位導航與穩定扶持鎖定，不具備自動動力鑽孔或主動自動進針能力（仍依賴醫師手動操作）。
+                    </li>
+                    <li>
+                        <strong>2D 影像投影缺乏動態 3D 立體軟組織畫面：</strong>
+                        導航介面為將 3D 軸線即時投影至 2D 螢幕 X 光影像上，無法像高階 CT 導航系統般提供即時三維 MPR (多平面重構) 軟組織切片畫面。
+                    </li>
+                    <li>
+                        <strong>對初始單張對位與相對空間位移較敏感：</strong>
+                        精確度高度依賴初始「單張 X 光」時校準標記與手術部位之幾何關係。若患者在術中發生大範圍體位移動或手臂基座鬆動，需重新拍攝單張影像進行校準。
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Risks Section -->
+            <div class="analysis-box" style="border-color: rgba(245, 158, 11, 0.3);">
+                <div class="analysis-header" style="color: #fbbf24;">
+                    <span>⚠️ 臨床潛在風險與預防因應對策 (Potential Clinical Risks & Mitigation)</span>
+                </div>
+                <ul class="list-risk">
+                    <li>
+                        <strong>1. 手術過程患者體位移動或基座位移風險 (Registration Shift Risk)：</strong>
+                        <br>解說：若手臂固定鉗因外力碰撞鬆動，將導致關節編碼器座標與影像空間轉換矩陣矩陣發生對位漂移。<br>
+                        <div class="risk-mitigation">
+                            🛡️ <strong>臨床預防措施：</strong>穩固夾持於手術檯側軌，術中透過螢幕交叉比對參考點；若懷疑對位偏移，隨時可進行 2.3 分鐘快速單張 X 光重新校準。
+                        </div>
+                    </li>
+                    <li>
+                        <strong>2. 器械穿透硬骨時彈性彎曲風險 (Instrument Deflection Risk)：</strong>
+                        <br>解說：關節編碼器量測末端轉接結構之空間姿態，若細長導針在穿透極硬骨骼或斜面切入時發生實體彎曲 (Bending)，前端尖端實際位置可能產生偏折。<br>
+                        <div class="risk-mitigation">
+                            🛡️ <strong>臨床預防措施：</strong>醫師進針時需順應正中路徑，避免過度側向施力；選用剛性高之工具套筒 (如圖7 限制機構 122) 加強軸向約束。
+                        </div>
+                    </li>
+                    <li>
+                        <strong>3. 單張 X 光影像對比度不足或標記遮擋風險 (Imaging Artifact Risk)：</strong>
+                        <br>解說：若患者重度骨質疏鬆或嚴重肥胖，影像背景噪訊可能干擾演算法對校準標記中心點之擷取。<br>
+                        <div class="risk-mitigation">
+                            🛡️ <strong>臨床預防措施：</strong>專利設計有多層幾何對比標記 (圖11C~E 鎢鋼球) 與顯影劑充填閘門 (圖11A)，可即時調整成像對比度。
+                        </div>
+                    </li>
+                    <li>
+                        <strong>4. 關節角度編碼器或煞車硬體異常風險 (Encoder Sensor Fault Risk)：</strong>
+                        <br>解說：長時間高強度使用後，關節角度編碼器或電磁煞車若出現訊號異常。<br>
+                        <div class="risk-mitigation">
+                            🛡️ <strong>臨床預防措施：</strong>系統內建開機自我自我健診機制 (Self-diagnostics) 與自鎖保護，定期進行 ISO 9283 空間精度與編碼器校正維護。
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tab FDA: FDA 510(k) Clearance -->
+        <div id="tab-fda" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon section-icon-purple">🇺🇸</div>
+                <h2 class="section-title">美國 FDA 510(k) 醫療器材通關認證分析 (K251992)</h2>
+            </div>
+
+            <!-- FDA Spec Pills -->
+            <div class="spec-pill-grid">
+                <div class="spec-pill" style="border-color: rgba(139, 92, 246, 0.3);">
+                    <div class="spec-pill-icon">📋</div>
+                    <div>
+                        <div class="spec-pill-val">K251992</div>
+                        <div class="spec-pill-lbl">FDA 510(k) 准許字號 (2026/02/11)</div>
+                    </div>
+                </div>
+                <div class="spec-pill" style="border-color: rgba(139, 92, 246, 0.3);">
+                    <div class="spec-pill-icon">⚖️</div>
+                    <div>
+                        <div class="spec-pill-val">Class II (OWB)</div>
+                        <div class="spec-pill-lbl">21 CFR 892.1650 放射線第二類醫材</div>
+                    </div>
+                </div>
+                <div class="spec-pill" style="border-color: rgba(139, 92, 246, 0.3);">
+                    <div class="spec-pill-icon">🔍</div>
+                    <div>
+                        <div class="spec-pill-val">TrackX Equiv.</div>
+                        <div class="spec-pill-lbl">Predicate: TrackX (K173736 / K200360)</div>
+                    </div>
+                </div>
+                <div class="spec-pill" style="border-color: rgba(139, 92, 246, 0.3);">
+                    <div class="spec-pill-icon">💯</div>
+                    <div>
+                        <div class="spec-pill-val">100% IEC 62366</div>
+                        <div class="spec-pill-lbl">人因可用性測試 0 人為操作錯誤</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-grid" style="margin-bottom: 32px;">
+                <div class="card card-purple">
+                    <div class="card-title card-title-purple">📌 1. FDA 官方適應症 (Indications for Use)</div>
+                    <p>ArmSure 螢光透視定位系統為一套軟體啟動之手動輔助臂（software-enabled manual Assist Arm），搭配 C型臂等螢光透視系統使用。</p>
+                    <div class="card-highlight card-highlight-purple">
+                        <strong>適用手術部位：</strong>用於輔助在 X 光影像上視覺化顯示連繫之相容外科器械與介入配件之空間位置，並保持空間位置以持握器械。特別標明用於<strong>脊椎 (Spine) 與長骨 (Long Bones)</strong> 之微創導航手術。
+                    </div>
+                </div>
+
+                <div class="card card-purple">
+                    <div class="card-title card-title-purple">🔬 2. 臨床與台架測試驗證 (Clinical Evidence)</div>
+                    <ul style="color: var(--text-muted); font-size: 0.93rem; line-height: 1.7; padding-left: 18px;">
+                        <li><strong>ISO 9283 & ASTM F2554 台架測試：</strong>3D 重複性與定位精度測試，誤差 <strong>&lt; 1.0 mm</strong>。</li>
+                        <li><strong>解剖假體臨床最差情境模擬：</strong>99.7% 信心區間下，定位誤差 <strong>&lt; 1.5 mm</strong>。</li>
+                        <li><strong>IEC 62366-1 人因可用性驗證：</strong>5 項核心關鍵任務測試達成 <strong>100% 成功率</strong>，零操作失誤紀錄。</li>
+                    </ul>
+                </div>
+
+                <div class="card card-purple">
+                    <div class="card-title card-title-purple">💻 3. 工作站系統硬體與合規認證 (Tech Specs)</div>
+                    <p>系統採用手動非主動驅動臂（manual, non-actuated Assist Arm），搭配機械式角度追蹤 (mechanical tracking)。</p>
+                    <div class="card-highlight card-highlight-purple">
+                        • <strong>工作站硬體：</strong>Intel i7-9700E, NVIDIA T1000, 32GB RAM, 1TB SSD, DVP-7011HE-1 擷取卡, Windows 11。<br>
+                        • <strong>生物相容性：</strong>ISO 10993 肌膚與組織表面接觸驗證。<br>
+                        • <strong>滅菌規範：</strong>單次使用配件採 EO 環氧乙烷滅菌 (ISO 11135, SAL $10^{-6}$)；重複使用組件清確清潔消毒。<br>
+                        • <strong>電氣安全與資安：</strong>IEC 60601-1, IEC 60601-1-2 EMC 相容，FDA 資安評估為 Basic 層級。
+                    </div>
+                </div>
+
+                <div class="card card-purple" style="grid-column: 1 / -1;">
+                    <div class="card-title card-title-purple">🔄 4. FDA 等效比對品與技術突破 (Predicate Devices)</div>
+                    <p>FDA 依 21 CFR 892.1650 認定 ArmSure 與 Predicate Devices 具備「實質等效性 (Substantial Equivalence)」。但 ArmSure 在追蹤技術上有根本性突破：</p>
+
+                    <!-- TrackX Info Row -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0;">
+                        <div style="background: rgba(0,0,0,0.3); border: 1px solid rgba(139,92,246,0.3); border-radius: 10px; padding: 16px;">
+                            <div style="font-weight: 700; color: #c084fc; margin-bottom: 10px; font-size: 0.95rem;">📋 Predicate 1：TrackX (K173736)</div>
+                            <div style="font-size: 0.85rem; color: #94a3b8; line-height: 1.7;">
+                                製造商：<strong style="color:#e2e8f0;">TrackX Technology, LLC</strong><br>
+                                地址：Hillsborough, NC 27278, USA<br>
+                                核准時間：2017 年<br>
+                                技術：一次性 "TrackX Snaps" 貼片標記 + 即時 X 光疊加<br>
+                                <a href="https://trackx.tech" target="_blank" style="color: #60a5fa; font-size: 0.83rem; text-decoration: none;">🔗 trackx.tech 官網 →</a>
+                            </div>
+                        </div>
+                        <div style="background: rgba(0,0,0,0.3); border: 1px solid rgba(139,92,246,0.3); border-radius: 10px; padding: 16px;">
+                            <div style="font-weight: 700; color: #c084fc; margin-bottom: 10px; font-size: 0.95rem;">📋 Predicate 2：TrackX v.2.0 (K200360)</div>
+                            <div style="font-size: 0.85rem; color: #94a3b8; line-height: 1.7;">
+                                製造商：<strong style="color:#e2e8f0;">TrackX Technology, LLC</strong><br>
+                                地址：Hillsborough, NC 27278, USA<br>
+                                核准時間：2020 年<br>
+                                技術：升級版 Snaps 標記系統，同款一次性設計<br>
+                                <a href="https://trackx.tech" target="_blank" style="color: #60a5fa; font-size: 0.83rem; text-decoration: none;">🔗 trackx.tech 官網 →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Comparison Table: ArmSure vs TrackX -->
+                    <div style="font-size: 0.83rem; text-transform: uppercase; color: #64748b; letter-spacing: 0.5px; margin: 16px 0 10px; font-weight: 700;">ArmSure vs TrackX 技術對比</div>
+                    <div style="border-radius: 10px; overflow: hidden; border: 1px solid rgba(139,92,246,0.2);">
+                        <table style="width:100%; border-collapse:collapse; font-size:0.88rem;">
+                            <thead>
+                                <tr>
+                                    <th style="background:rgba(15,23,42,0.9); color:#64748b; padding:10px 16px; text-align:left; border-bottom:1px solid rgba(255,255,255,0.06);">技術維度</th>
+                                    <th style="background:rgba(16,185,129,0.12); color:#34d399; padding:10px 16px; text-align:center; border-bottom:1px solid rgba(255,255,255,0.06);">✅ SAVFE ArmSure (K251992)</th>
+                                    <th style="background:rgba(139,92,246,0.12); color:#c084fc; padding:10px 16px; text-align:center; border-bottom:1px solid rgba(255,255,255,0.06);">TrackX (K173736 / K200360)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                                    <td style="padding:10px 16px; color:#64748b; font-weight:600;">追蹤技術</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#34d399; font-weight:700;">關節內建編碼器機械追蹤</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#c084fc;">一次性 Snaps 標記貼片追蹤</td>
+                                </tr>
+                                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                                    <td style="padding:10px 16px; color:#64748b; font-weight:600;">遮擋/干擾問題</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#34d399;">❌ 完全無遮擋問題</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#f87171;">✅ 標記可能被遮蔽或脫落</td>
+                                </tr>
+                                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                                    <td style="padding:10px 16px; color:#64748b; font-weight:600;">器械定位方式</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#34d399;">機械臂末端精確持握 (7-DOF)</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#c084fc;">標記貼附於器械表面</td>
+                                </tr>
+                                <tr style="border-bottom:1px solid rgba(255,255,255,0.04);">
+                                    <td style="padding:10px 16px; color:#64748b; font-weight:600;">消耗品成本</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#34d399;">低（校準裝置可複用）</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#f87171;">每次均需新 Snaps 貼片耗材</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding:10px 16px; color:#64748b; font-weight:600;">器械穩定扶持</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#34d399;">✅ 手臂物理鎖定穩定持握</td>
+                                    <td style="padding:10px 16px; text-align:center; color:#c084fc;">❌ 純追蹤，不扶持器械</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Paper: Cureus Scientific Journal Paper -->
+        <div id="tab-paper" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon section-icon-rose">📄</div>
+                <h2 class="section-title">Cureus 國際頂尖期刊 脊椎椎弓根螺釘植入臨床實驗 (DOI: 10.7759/cureus.87212)</h2>
+            </div>
+
+            <div class="spec-pill-grid">
+                <div class="spec-pill" style="border-color: rgba(244, 63, 94, 0.3);">
+                    <div class="spec-pill-icon">🎯</div>
+                    <div>
+                        <div class="spec-pill-val">1.08 &plusmn; 0.40 mm</div>
+                        <div class="spec-pill-lbl">椎弓根螺釘植入 3D 平均平移誤差 (CMM 校準)</div>
+                    </div>
+                </div>
+                <div class="spec-pill" style="border-color: rgba(244, 63, 94, 0.3);">
+                    <div class="spec-pill-icon">⏱️</div>
+                    <div>
+                        <div class="spec-pill-val">2.3 min vs 28.3 min</div>
+                        <div class="spec-pill-lbl">系統安裝校準耗時（大幅領先 O-arm 28.3分鐘）</div>
+                    </div>
+                </div>
+                <div class="spec-pill" style="border-color: rgba(244, 63, 94, 0.3);">
+                    <div class="spec-pill-icon">⚡</div>
+                    <div>
+                        <div class="spec-pill-val">4.2 min vs 22.3 min</div>
+                        <div class="spec-pill-lbl">單針螺釘植入手術時間（大幅超越傳統機器人）</div>
+                    </div>
+                </div>
+                <div class="spec-pill" style="border-color: rgba(244, 63, 94, 0.3);">
+                    <div class="spec-pill-icon">☢️</div>
+                    <div>
+                        <div class="spec-pill-val">0.27 mGy (6.75張)</div>
+                        <div class="spec-pill-lbl">單次手術累積輻射劑量（傳統高達 35.5 mGy/針）</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-grid" style="margin-bottom: 32px;">
+                <div class="card card-rose">
+                    <div class="card-title card-title-rose">🔬 1. 實驗設計與 CMM 絕對精度基準</div>
+                    <p>外科醫師在 3 套 Sawbones 脊椎模型 (L1-L5 帶軀幹假體) 上進行單節段椎弓根螺釘植入測試，並使用高精度三次元測量儀 (Hexagon Inspector Classic 6.8.6，精度 &plusmn;0.01 mm) 建立 Ground Truth。</p>
+                    <div class="card-highlight card-highlight-rose">
+                        • <strong>3D 臂身固有精度：</strong>3 次獨立實驗平均平移誤差為 1.12mm、0.96mm、0.99mm，總平均為 <strong>1.03 &plusmn; 0.38 mm</strong>。<br>
+                        • <strong>2D 影像校準誤差：</strong>15 次校準實驗平均誤差僅 <strong>0.07 &plusmn; 0.05 mm</strong>（絕大多數小於 0.1 mm）。<br>
+                        • <strong>綜合傳播總誤差：</strong>最終整體系統導航精度為 <strong>1.10 &plusmn; 0.43 mm</strong>。
+                    </div>
+                </div>
+
+                <div class="card card-rose">
+                    <div class="card-title card-title-rose">⏱️ 2. 手術效率與準備時間驚人對比 (Efficiency)</div>
+                    <p>臨床手術時間長短直接影響病人感染風險與麻醉負擔。論文詳細記錄 8 組手術流程之時間曲線與學習曲線：</p>
+                    <div class="card-highlight card-highlight-rose">
+                        • <strong>設備安裝與單張X光校準 (Setup Time)：</strong>平均僅 <strong>2.3 &plusmn; 0.8 分鐘</strong>（競品 O-arm 導航需要 28.3 分鐘，傳統機器人需 19 分鐘！）。<br>
+                        • <strong>螺釘植入手術時間 (Operation Time)：</strong>平均僅 <strong>4.2 &plusmn; 1.6 分鐘</strong>（術前 CT 導航平均需要 10.2 分鐘，Mazor X 機器人早期需要 22.3 分鐘）。
+                    </div>
+                </div>
+
+                <div class="card card-rose">
+                    <div class="card-title card-title-rose">☢️ 3. 輻射劑量與拍攝發數極大化壓低 (Radiation Exposure)</div>
+                    <p>傳統徒手骨科手術醫護與患者面臨巨大的累積輻射風險。Cureus 研究精確記錄每次手術發數：</p>
+                    <div class="card-highlight card-highlight-rose">
+                        • <strong>全程 X 光拍攝總發數：</strong>平均僅 <strong>6.75 &plusmn; 0.95 張</strong>（包含位置確認 4.25張、系統校準 1.5張、結果確認 2張）。<br>
+                        • <strong>累積輻射暴露劑量：</strong>單次手術總累積劑量僅 <strong>0.27 &plusmn; 0.04 mGy</strong>；遠低於文獻中傳統螢光透視導航每根螺釘 35.5 mGy 或 O-arm 機器人 15.8 mGy 之劑量！
+                    </div>
+                </div>
+
+                <div class="card card-rose">
+                    <div class="card-title card-title-rose">🧠 4. 無痛學習曲線與外科醫師臨床體驗</div>
+                    <p>研究指出，ArmSure 手臂完全不改變醫師原有的手術握持與操作習慣。</p>
+                    <div class="card-highlight card-highlight-rose">
+                        <strong>流暢無縫銜接：</strong>只需使用包含校準器之單張 X 光影像完成 2D 對位後，該張影像即可作為連續 2D 導航之背景畫面，無需反覆拍攝，極大地提升臨床手術團隊之操作滿意度。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab Official: SAVFE 官網產品與技術規格 -->
+        <div id="tab-official" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon section-icon-emerald">🌐</div>
+                <h2 class="section-title">SAVFE Assist Arm 官網產品技術與核心參數 (Products & Technology)</h2>
+            </div>
+
+            <!-- Spec Pills -->
+            <div class="spec-pill-grid">
+                <div class="spec-pill">
+                    <div class="spec-pill-icon">🦾</div>
+                    <div>
+                        <div class="spec-pill-val">7-DOF</div>
+                        <div class="spec-pill-lbl">7 自由度機械臂靈活空間運動</div>
+                    </div>
+                </div>
+                <div class="spec-pill">
+                    <div class="spec-pill-icon">🎯</div>
+                    <div>
+                        <div class="spec-pill-val">&le; 1.5 mm</div>
+                        <div class="spec-pill-lbl">高精度空間定位誤差率</div>
+                    </div>
+                </div>
+                <div class="spec-pill">
+                    <div class="spec-pill-icon">📡</div>
+                    <div>
+                        <div class="spec-pill-val">No Ext. Tracking</div>
+                        <div class="spec-pill-lbl">無需外部光學/電磁追蹤相機</div>
+                    </div>
+                </div>
+                <div class="spec-pill">
+                    <div class="spec-pill-icon">⚡</div>
+                    <div>
+                        <div class="spec-pill-val">Fewer X-rays</div>
+                        <div class="spec-pill-lbl">大幅減少重複 X 光掃描輻射</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Official Photos Gallery -->
+            <div class="gallery-grid" style="margin-bottom: 32px;">
+                <div class="gallery-card gallery-card-emerald">
+                    <div class="img-container img-container-photo" onclick="openModal('savfe_official_arm01.jpg', 'SAVFE Assist Arm 協作型手術扶臂姿態與實體展示 (官網圖 01)')">
+                        <img src="./savfe_official_arm01.jpg" alt="Assist Arm 01" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大查看實體照</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag fig-tag-emerald">SAVFE 官方原廠圖 01</span>
+                        <h3 class="fig-title">SAVFE Assist Arm 協作型手術扶臂全貌</h3>
+                        <p class="fig-desc">官網展出之 SAVFE Assist Arm 主體，採用 7 自由度輕量化機械結構，可穩定夾持與精確定導微創手術器械。</p>
+                        <div class="component-chips">
+                            <span class="chip chip-emerald">7-DOF 臂身</span>
+                            <span class="chip chip-emerald">輕量協作結構</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card gallery-card-emerald">
+                    <div class="img-container img-container-photo" onclick="openModal('savfe_official_arm02.jpg', 'SAVFE Assist Arm 關節軸承與控制手柄細節 (官網圖 02)')">
+                        <img src="./savfe_official_arm02.jpg" alt="Assist Arm 02" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大查看關節細節</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag fig-tag-emerald">SAVFE 官方原廠圖 02</span>
+                        <h3 class="fig-title">關節內建高精度編碼器與手柄細節</h3>
+                        <p class="fig-desc">特寫關節軸承與醫師人因操作手柄。關節內部整合高精度角度編碼器，提供亞毫米級極致定位防護。</p>
+                        <div class="component-chips">
+                            <span class="chip chip-emerald">高精度編碼器</span>
+                            <span class="chip chip-emerald">人因工程手柄</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card gallery-card-emerald">
+                    <div class="img-container img-container-photo" onclick="openModal('savfe_official_single_img.png', 'Single Image Integrated Positioning 整合式單張影像定位架構 (官網圖 03)')">
+                        <img src="./savfe_official_single_img.png" alt="Single Image 03" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大對位架構圖</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag fig-tag-emerald">SAVFE 官方原廠圖 03</span>
+                        <h3 class="fig-title">Single Image Integrated Positioning 技術架構</h3>
+                        <p class="fig-desc">官網介紹之 Single Image 單張影像對位技術。免去傳統繁瑣之外部感測器校準流程，極速完成手術導航。</p>
+                        <div class="component-chips">
+                            <span class="chip chip-emerald">Single Image 對位</span>
+                            <span class="chip chip-emerald">即時軌跡疊加</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card gallery-card-emerald">
+                    <div class="img-container img-container-photo" onclick="openModal('savfe_official_prod.jpg', 'SAVFE 產品系統模組與底座結構示意圖 (官網圖 04)')">
+                        <img src="./savfe_official_prod.jpg" alt="Products 04" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大產品結構</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag fig-tag-emerald">SAVFE 官方原廠圖 04</span>
+                        <h3 class="fig-title">SAVFE 系統總體外觀與底座結構</h3>
+                        <p class="fig-desc">呈現 Assist Arm 與手術檯/工作站快速固定夾具及電路模組之整合外觀設計。</p>
+                        <div class="component-chips">
+                            <span class="chip chip-emerald">手術檯側軌固定</span>
+                            <span class="chip chip-emerald">快拆接頭</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Official Features Cards -->
+            <div class="card-grid">
+                <div class="card card-emerald">
+                    <div class="card-title card-title-emerald">🔗 1. Integrated Positioning (整合式定位)</div>
+                    <p>Assist Arm 內建整合定位功能，擺脫了光學相機與電磁追蹤器。不需在患者身上安裝標記光學球，徹底解決手術房內人員視線遮擋及環境干擾之沉痾。</p>
+                </div>
+                <div class="card card-emerald">
+                    <div class="card-title card-title-emerald">📐 2. 7-DOF & 1.5mm Precision (7自由度與高精度)</div>
+                    <p>提供 7 個關節自由度運動，靈活穿梭於狹窄微創手術空間；配合精密關節編碼器與順向運動學，實現定位精度 <strong>&le; 1.5 mm</strong>。</p>
+                </div>
+                <div class="card card-emerald">
+                    <div class="card-title card-title-emerald">🏥 3. Multi-Modality Compatibility (多模態相容)</div>
+                    <p>可無縫整合市場上各式放射線醫療影像系統（包括 C型臂 X 光、電腦斷層 CT、O型臂等），無需為系統替換昂貴的專用成像鏡頭。</p>
+                </div>
+                <div class="card card-emerald">
+                    <div class="card-title card-title-emerald">⏱️ 4. Accurate Positioning & Smoother Workflow</div>
+                    <p>大幅減少拍攝發數與輻射暴露，同時簡化系統準備與校準流程，極小化上手等待時間，實現更快速流暢的微創手術體驗。</p>
+                </div>
+            </div>
+        <!-- Tab Official: SAVFE 官網產品與技術規格 -->
+
+        <!-- Tab 1: 核心發明與創新對比 -->
+        <div id="tab-summary" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon">1</div>
+                <h2 class="section-title">傳統手術導航 vs 思輔科技 SAVFE 創新突破</h2>
+            </div>
+
+            <div class="comparison-grid" style="margin-bottom: 32px;">
+                <div class="comp-card comp-legacy">
+                    <h3>❌ 傳統手術導航痛點 (Prior Art)</h3>
+                    <ul class="comp-list">
+                        <li><strong>多次X光拍攝：</strong>在微創骨科手術中，需頻繁拍攝多張X光影像確認位置，增加醫護與患者的累積輻射暴露。</li>
+                        <li><strong>依賴外部感測器：</strong>極度依賴外部紅外線光學感測器或電磁感測器進行空間追蹤。</li>
+                        <li><strong>視線遮擋與干擾：</strong>手術室內人員或工具容易遮擋光學感測視線，或環境電磁波干擾導致空間定位漂移不穩定。</li>
+                        <li><strong>配備繁瑣笨重：</strong>每個手術工具及病人身上均需裝配可被感測的標記組件，增加準備時間與手術環境複雜度。</li>
+                    </ul>
+                </div>
+
+                <div class="comp-card comp-savfe">
+                    <h3>⚡ SAVFE 思輔科技解決方案 (Innovation)</h3>
+                    <ul class="comp-list">
+                        <li><strong>單張醫學影像定導航：</strong>僅需「單張」醫療影像（X光/CT/MRI）結合校準裝置標記，即可完成空間座標系註冊轉換。</li>
+                        <li><strong>關節內建高精度編碼器：</strong>透過手臂關節的角度編碼器（磁性/電容式）輸出與順向運動學（Forward Kinematics），即時計算器械空間位置。</li>
+                        <li><strong>免外部追蹤設備：</strong>不需光學/電磁追蹤相機，完全免除遮擋問題與電磁干擾風險。</li>
+                        <li><strong>多層/可充填標記防遮擋：</strong>校準標記可控制顯影劑充填或採幾何差異設計，不影響患者關鍵骨骼/解剖結構的清晰成像。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-title">🎯 技術摘要 (Abstract Summary)</div>
+                    <p>一種用於導航由機械手臂執行的手術方法與系統。利用醫療影像系統拍攝包含校準裝置標記的第一影像，結合機械手臂關節編碼器的第一輸出與順向運動學，計算標記在手臂第一座標系與影像第二座標系中的位置，從而建立兩個座標系間的空間轉換關係矩陣。</p>
+                    <div class="card-highlight">
+                        核心價值：在手術過程中，編碼器即時輸出器械在手臂空間位置，並經轉換矩陣動態將器械前端輪廓與移動軌跡精確疊加於單張醫學影像上。
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">🧩 主要系統模組 (System Architecture)</div>
+                    <p>外科系統包含：機械手臂（具有多個關節及高精度關節編碼器）、終端適配結構、校準裝置（設置有非共面標記）、醫學影像系統（C型臂、CT、MRI等）、以及處理器與顯示裝置。</p>
+                    <div class="card-highlight">
+                        自由度與彈性：手臂關節組合提供至少 6 個自由度，末端可快速夾持或切換手動/動力外科工具。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 2: 空間座標轉換原理 -->
+        <div id="tab-pipeline" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon">2</div>
+                <h2 class="section-title">導航空間座標系轉換演算法 (Coordinate Registration Algorithm)</h2>
+            </div>
+
+            <div class="step-pipeline">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-body">
+                        <h4>取得初始醫學影像 (第一影像)</h4>
+                        <p>醫學影像系統（如C型臂X光）拍攝患者手術區域與安裝於手臂末端的校準裝置標記 <span class="step-code">32</span>，生成第一醫學影像。</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-body">
+                        <h4>計算第一座標系位置 (機械手臂基座座標系, Coord Sys 1)</h4>
+                        <p>處理器讀取臂關節編碼器 <span class="step-code">1103a</span> 的第一輸出，結合手臂幾何參數（長度、關節配置）與順向運動學（Forward Kinematics），確定標記在第一座標系中的空間位置 <span class="step-code">P_0,4</span>。</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-body">
+                        <h4>計算第二座標系位置 (醫學影像空間座標系, Coord Sys 2)</h4>
+                        <p>透過圖像識別演算法，從第一醫學影像中定位校準標記的像素座標/空間位置 <span class="step-code">P_img</span>，建立描述影像空間的第二座標系。</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <div class="step-body">
+                        <h4>求解轉換關係矩陣 (Transformation Matrix T)</h4>
+                        <p>根據第一位置 <span class="step-code">P_0,4</span> 與第二位置，利用 DLT (直接線性變換)、PnP (Perspective-n-Point) 或束調整 (Bundle Adjustment) 演算法求解轉換矩陣 <span class="step-code">T_{1→2}</span>。</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">5</div>
+                    <div class="step-body">
+                        <h4>手術動態器械追蹤與影像疊加</h4>
+                        <p>手術過程中，即時讀取關節編碼器第二輸出，算出器械尖端在手臂座標系的位置 <span class="step-code">P'_0,3</span>，經矩陣 <span class="step-code">T_{1→2}</span> 映射至影像空間第4位置，實時將虛擬器械動態疊加於醫學影像中。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 3: 機械臂與編碼器硬體結構 -->
+        <div id="tab-hardware" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon">3</div>
+                <h2 class="section-title">關節編碼器與校準標記專利硬體設計 (Hardware Engineering)</h2>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-title">🧲 磁性關節編碼器共軸配置 (圖4A ~ 圖4E)</div>
+                    <p>為避免空間浪費與微型化關節，旋轉軸 <span class="step-code">1101a</span>、制動器 <span class="step-code">1102a</span>、磁鐵 <span class="step-code">1105a</span> 與磁編碼器 <span class="step-code">1103a</span> 採<strong>共軸組裝 (Co-axial)</strong>。</p>
+                    <div class="card-highlight">
+                        <strong>防磁干擾設計 (圖4C/4D/4E)：</strong>磁環套設於減速器輸出軸端，放置於減速器與輸出軸相對的一側，使磁鐵遠離電磁制動器，消除磁場干擾傳感器的誤差。
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">⚡ 電容編碼器與中空縮短軸向設計 (圖5A ~ 圖5D)</div>
+                    <p>電容編碼器 <span class="step-code">1103a</span> 採中空設計。圖5D 中，制動器與電容編碼器皆為中空，並通過長軸 <span class="step-code">1109a</span> 直接連接減速器與編碼器。</p>
+                    <div class="card-highlight">
+                        <strong>精簡構造：</strong>消除聯軸器的需求，極大地減少關節的軸向長度與體積，提高機械結構剛性。
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">⭕ 雙環非共面校準裝置 (圖10)</div>
+                    <p>校準裝置 <span class="step-code">30</span> 包含結構框架與 6 個非共面標記 <span class="step-code">32a~32f</span>，分別配置於第一平面第一環與平行第二平面第二環上。</p>
+                    <div class="card-highlight">
+                        <strong>軸向與空間向量確定：</strong>由同心兩環的圓心軸線即可精確推算出器械 <span class="step-code">40</span> 的三維指向與空間角度。
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">🧪 可調顯影劑與多層/幾何標記 (圖11A ~ 圖11E)</div>
+                    <p>標記採用對X射線具有不同吸收率的材料（如金屬球嵌入或鎢鋼球 vs 鋁合金框架）。標記內部設有閘門可控制顯影劑填充量。</p>
+                    <div class="card-highlight">
+                        <strong>對比度增強：</strong>防止標記影像與患者骨骼影像混淆重疊，確保演算法精確提取標記中心點。
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 4: 圖面與文字說明對照庫 -->
+        <div id="tab-drawings" class="tab-content">
+            <div class="section-header">
+                <div class="section-icon">4</div>
+                <h2 class="section-title">專利圖面與圖號完整對照卡片庫 (Figure Gallery)</h2>
+            </div>
+            <p style="color: var(--text-muted); margin-bottom: 24px;">點擊圖片可放大查看高清圖檔。圖面與同一資料夾內的 PNG 檔完美對應 (圖一 = TWG2TB001876972_001.png，以此類推)。</p>
+
+            <div class="gallery-grid">
+                <!-- Fig 1 -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_001.png', '圖1：外科系統方塊圖 (圖一)')">
+                        <img src="./TWG2TB001876972_001.png" alt="圖1" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_001.png</span>
+                        <h3 class="fig-title">圖1 - 外科系統方塊圖</h3>
+                        <p class="fig-desc">展示外科系統 (1) 之整體架構方塊圖，包含機械手臂 (10)、導航系統 (20)、輸出裝置 (21)、處理器 (22) 與醫學影像系統 (2)。</p>
+                        <div class="component-chips">
+                            <span class="chip">1: 外科系統</span>
+                            <span class="chip">10: 手臂</span>
+                            <span class="chip">20: 導航系統</span>
+                            <span class="chip">2: 醫學影像系統</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fig 2 -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_002.png', '圖2：外科系統示意圖 (圖二)')">
+                        <img src="./TWG2TB001876972_002.png" alt="圖2" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_002.png</span>
+                        <h3 class="fig-title">圖2 - 外科系統整體示意圖</h3>
+                        <p class="fig-desc">示意手臂固定於工作站/側軌夾，末端連接終端轉接結構 (12)、校準裝置 (30) 與器械 (40)，並對應患者與影像系統。</p>
+                        <div class="component-chips">
+                            <span class="chip">30: 校準裝置</span>
+                            <span class="chip">40: 器械</span>
+                            <span class="chip">3: 患者</span>
+                            <span class="chip">12: 終端轉接結構</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fig 3 -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_003.png', '圖3：手臂示意圖 (圖三)')">
+                        <img src="./TWG2TB001876972_003.png" alt="圖3" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_003.png</span>
+                        <h3 class="fig-title">圖3 - 手臂多關節軸線示意圖</h3>
+                        <p class="fig-desc">詳細展示基端 (101)、多關節模組 (110a~110e)、軸承與連接軸 (111a~111d)、轉接介面 (112) 及末端執行器模組 (110f)。</p>
+                        <div class="component-chips">
+                            <span class="chip">101: 基端</span>
+                            <span class="chip">110a~110e: 臂關節</span>
+                            <span class="chip">110f: 末端執行器</span>
+                            <span class="chip">112: 轉接介面</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fig 4A -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_004.png', '圖4A：磁性編碼器臂關節設置示意圖')">
+                        <img src="./TWG2TB001876972_004.png" alt="圖4A" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_004.png</span>
+                        <h3 class="fig-title">圖4A - 磁性編碼器關節內部結構</h3>
+                        <p class="fig-desc">展示臂關節內部基座 (1100a)、旋轉軸 (1101a)、制動器 (1102a)、磁鐵 (1105a) 與磁編碼器 (1103a) 之基本共軸配置。</p>
+                        <div class="component-chips">
+                            <span class="chip">1101a: 旋轉軸</span>
+                            <span class="chip">1103a: 磁編碼器</span>
+                            <span class="chip">1105a: 磁鐵</span>
+                            <span class="chip">1107a: 軸承</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fig 4B -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_005.png', '圖4B：帶減速器之磁編碼器關節')">
+                        <img src="./TWG2TB001876972_005.png" alt="圖4B" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_005.png</span>
+                        <h3 class="fig-title">圖4B - 減速器與磁編碼器設置</h3>
+                        <p class="fig-desc">加入扭矩放大減速器 (1104a) 之關節截面圖。制動器在一側，磁鐵與編碼器在另一側。</p>
+                        <div class="component-chips">
+                            <span class="chip">1104a: 減速器</span>
+                            <span class="chip">1102a: 制動器</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fig 4C-4E -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_006.png', '圖4C：磁環套設在減速器輸出軸端防干擾')">
+                        <img src="./TWG2TB001876972_006.png" alt="圖4C" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_006.png ~ 008.png</span>
+                        <h3 class="fig-title">圖4C/4D/4E - 磁環避開制動器干擾設計</h3>
+                        <p class="fig-desc">將磁環 (1105a) 套設於減速器輸出軸端 (11041a)，遠離電磁制動器 (1102a)，避免磁場干擾感測器，同時節省關節內部空間。</p>
+                    </div>
+                </div>
+
+                <!-- Fig 5A-5D -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_012.png', '圖5D：中空制動器與中空電容編碼器')">
+                        <img src="./TWG2TB001876972_012.png" alt="圖5D" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_009.png ~ 012.png</span>
+                        <h3 class="fig-title">圖5A~5D - 電容編碼器與中空結構</h3>
+                        <p class="fig-desc">電容編碼器 (1103a) 設置。圖5D 為雙中空設計，通過長軸 (1109a) 直連編碼器與減速器，消除聯軸器需求並縮短軸向長度。</p>
+                    </div>
+                </div>
+
+                <!-- Fig 6 & 7 -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_014.png', '圖7：用以連接/固定/限制器械的結構')">
+                        <img src="./TWG2TB001876972_014.png" alt="圖7" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_013.png, 014.png</span>
+                        <h3 class="fig-title">圖6 & 圖7 - 終端適配與器械限制機構</h3>
+                        <p class="fig-desc">終端轉接結構 (12) 包含套筒組 (121)、限制機構 (122) 與夾持機構 (123)，可微調器械軸向深度 H1，確保手術安全。</p>
+                        <div class="component-chips">
+                            <span class="chip">121: 套筒組</span>
+                            <span class="chip">122: 限制機構</span>
+                            <span class="chip">123: 夾持機構</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fig 8 & 9 -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_015.png', '圖8：標記位置判斷示意圖')">
+                        <img src="./TWG2TB001876972_015.png" alt="圖8" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_015.png, 016.png</span>
+                        <h3 class="fig-title">圖8 & 圖9 - 標記與器械尖端空間算術鏈</h3>
+                        <p class="fig-desc">幾何向量鏈關係：由基端 P0 出發，經 P0,1 ➔ P1,2 ➔ P2,3 ➔ P3,4 確定標記 P0,4 向量；同理計算器械尖端 P'0,3 位置。</p>
+                    </div>
+                </div>
+
+                <!-- Fig 10 & 11A-11E -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_017.png', '圖10：校準裝置結構示意圖')">
+                        <img src="./TWG2TB001876972_017.png" alt="圖10" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_017.png ~ 022.png</span>
+                        <h3 class="fig-title">圖10 & 圖11A~E - 校準裝置標記圖樣</h3>
+                        <p class="fig-desc">雙平面雙環標記 (32a~32f)。圖11A 可充填顯影劑閘門；圖11B 網格單元；11C~E 為金屬/凹凸幾何差異標記。</p>
+                    </div>
+                </div>
+
+                <!-- Fig 12 & 13 -->
+                <div class="gallery-card">
+                    <div class="img-container" onclick="openModal('TWG2TB001876972_023.png', '圖12：導航流程圖')">
+                        <img src="./TWG2TB001876972_023.png" alt="圖12" loading="lazy">
+                        <span class="zoom-hint">🔍 點擊放大</span>
+                    </div>
+                    <div class="gallery-content">
+                        <span class="fig-tag">檔案：TWG2TB001876972_023.png, 024.png</span>
+                        <h3 class="fig-title">圖12 & 圖13 - 導航流程與動態疊加畫面</h3>
+                        <p class="fig-desc">流程1200步驟。圖13為最後顯示於螢幕上的第二影像 (50)，即時將虛擬器械 (40) 與目標解剖區域 (60) 疊加顯示。</p>
+                        <div class="component-chips">
+                            <span class="chip">50: 第二影像</span>
+                            <span class="chip">60: 目標區域</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Image Preview Modal -->
+    <div id="imgModal" class="modal" onclick="closeModal()">
+        <div class="modal-body" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            <img id="modalImg" src="" alt="放大圖面">
+            <div id="modalCap" class="modal-caption"></div>
+        </div>
+    </div>
+
+    <script>
+        // Tab switching
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+                btn.classList.remove('active-amber');
+                btn.classList.remove('active-purple');
+                btn.classList.remove('active-rose');
+                btn.classList.remove('active-emerald');
+                btn.classList.remove('active-gold');
+            });
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+            const targetBtn = event.target;
+            if (tabId === 'tab-risk') {
+                targetBtn.classList.add('active-amber');
+            } else if (tabId === 'tab-fda') {
+                targetBtn.classList.add('active-purple');
+            } else if (tabId === 'tab-paper') {
+                targetBtn.classList.add('active-rose');
+            } else if (tabId === 'tab-official') {
+                targetBtn.classList.add('active-emerald');
+            } else {
+                targetBtn.classList.add('active');
+            }
+            
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        // Image Modal
+        function openModal(imgSrc, caption) {
+            const modal = document.getElementById('imgModal');
+            const img = document.getElementById('modalImg');
+            const cap = document.getElementById('modalCap');
+            
+            img.src = './' + imgSrc;
+            cap.innerText = caption;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('imgModal').classList.remove('active');
+        }
+
+        // Symbol Search Filter
+        function filterSymbols() {
+            const input = document.getElementById('symbol-search').value.toLowerCase();
+            const rows = document.querySelectorAll('#symbol-table tbody tr');
+
+            rows.forEach(row => {
+                const text = row.innerText.toLowerCase();
+                if (text.includes(input)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
